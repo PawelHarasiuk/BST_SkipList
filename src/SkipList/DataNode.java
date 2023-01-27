@@ -2,14 +2,12 @@ package SkipList;
 
 public class DataNode {
 
-    //każdy węzeł ma nastepny element przed sobą i element pod sobą, wartość i poziom
     private DataNode next;
     private DataNode below;
 
     private int value;
     private int level;
 
-    //gettery i settery
     public DataNode(int value) {
         this.value = value;
     }
